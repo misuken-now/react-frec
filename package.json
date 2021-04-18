@@ -1,6 +1,6 @@
 {
   "name": "react-frec",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "This is a type library to simplify \"React.forwardRef\" and \"React.ForwardRefExoticComponent\"",
   "main": "",
   "types": "index",
