@@ -51,9 +51,10 @@ const ClassComponent: Frec<FooComponent> = forwardRef((props, ref) => {
 });
 
 // from styled-component
-// const Button = styled.button``;
-// const StyledComponent: Frec<"button"> = forwardRef((props, ref) => {
-//   return <Button {...props} ref={ref} />;
+// const tagName = "button";
+// const Styled = styled[tagName]``;
+// const Button: Frec<typeof tagName> = forwardRef((props, ref) => {
+//   return <Styled {...props} ref={ref} />;
 // });
 ```
 
@@ -77,6 +78,8 @@ export const HtmlComponent: Frec<"button"> = forwardRef((props, ref) => {
     return <button {...props} ref={ref} />;
 });
 ```
+
+More detailed information can be found in [How to write React.forwardRef concisely in TypeScript](https://qiita.com/misuken/items/5de8a0b4ca9b2d4504e8).
 
 # LICENSE
 
