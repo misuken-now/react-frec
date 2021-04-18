@@ -1,0 +1,32 @@
+{
+  "name": "react-frec",
+  "version": "0.0.0",
+  "description": "This is a type library to simplify \"React.forwardRef\" and \"React.ForwardRefExoticComponent\"",
+  "main": "",
+  "types": "index",
+  "scripts": {
+    "build": "tsc -P .",
+    "format": "npm run format:write",
+    "format:check": "prettier --check \"**/*.{js,jsx,ts,tsx,json,yml,yaml,md,html}\"",
+    "format:write": "prettier --write \"**/*.{js,jsx,ts,tsx,json,yml,yaml,md,html}\"",
+    "versionup:major": "changelog -M && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version major",
+    "versionup:minor": "changelog -m && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version minor",
+    "versionup:patch": "changelog -p && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version patch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/misuken-now/react-frec.git"
+  },
+  "author": "misuken",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/misuken-now/react-frec/issues"
+  },
+  "homepage": "https://github.com/misuken-now/react-frec#readme",
+  "devDependencies": {
+    "@types/react": ">=16.0.0",
+    "generate-changelog": "^1.8.0",
+    "prettier": ">=2.0.0",
+    "typescript": ">=4.0.0"
+  }
+}
