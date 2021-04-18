@@ -1,3 +1,9 @@
+#### 1.0.2 (2021-04-18)
+
+##### Documentation Changes
+
+*  update README ([8d6e9333](https://github.com/misuken-now/react-frec/commit/8d6e9333c43a26d7c34c51d3e0290f9d174980c4))
+
 #### 1.0.1 (2021-04-18)
 
 ##### Chores
