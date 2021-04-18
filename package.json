@@ -2,6 +2,14 @@
   "name": "react-frec",
   "version": "1.0.0",
   "description": "This is a type library to simplify \"React.forwardRef\" and \"React.ForwardRefExoticComponent\"",
+  "keywords": [
+    "TypeScript",
+    "react",
+    "type",
+    "types",
+    "forwardRef",
+    "ForwardRefExoticComponent"
+  ],
   "main": "",
   "types": "index",
   "scripts": {
