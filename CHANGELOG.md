@@ -1,3 +1,9 @@
+#### 1.0.1 (2021-04-18)
+
+##### Chores
+
+* **package.json:**  add keywords ([7a3f67af](https://github.com/misuken-now/react-frec/commit/7a3f67af32dfd125b7657429545894859730a6b6))
+
 ## 1.0.0 (2021-04-18)
 
 ##### New Features
